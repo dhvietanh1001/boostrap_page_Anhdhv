@@ -128,7 +128,7 @@
 
 .container1 {
     display: flex;
-    height: 500px; /* Adjust as needed */
+    height: 500px;
 }
 
 .red, .side2 {
@@ -136,7 +136,7 @@
 }
 
 .red {
-    flex: 6; /* Adjust based on the proportion */
+    flex: 6; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -144,7 +144,7 @@
 }
 
 .side {
-    flex: 3; /* Adjust based on the proportion */
+    flex: 3; 
     display: flex;
     flex-direction: column;
 }
@@ -163,19 +163,19 @@
 }
 
 .overlay {
-    position: absolute; /* Ensure it is positioned absolutely within the .red container */
-    bottom: 10px; /* Adjust the distance from the bottom */
-    left: 10px; /* Adjust the distance from the left */
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
-    padding: 5px; /* Padding around the text */
-    border-radius: 5px; /* Rounded corners */
-    z-index: 1; /* Ensure it is on top of the image */
+    position: absolute; 
+    bottom: 10px; 
+    left: 10px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 5px; 
+    border-radius: 5px; 
+    z-index: 1;
 }
 
 .caption {
     color: white;
-    font-size: 1rem; /* Adjust font size as needed */
-    margin: 0; /* Remove default margin from <p> */
+    font-size: 1rem; 
+    margin: 0; 
 }
 
 
