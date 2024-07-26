@@ -2,21 +2,25 @@
     background-color: #1A202C;
     color: #CBD5E0;
     width: 16rem;
-    padding: 1.75rem 0.5rem;
+    padding-left: 0px;
+    padding-right: 0px;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .nav-item {
     display: block;
     padding: 0.625rem 1rem;
-    border-radius: 0.375rem;
     transition: background-color 0.2s;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
 }
 
 .nav-item:hover {
-    background-color: #4A5568;
+    background-color:#2a2f33;
 }
 
 .nav-item.active {
@@ -78,6 +82,7 @@
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
     height: 300px;
     margin-bottom: 15px;
+    position: relative;
 }
 
 .right-sidebar {
@@ -117,8 +122,8 @@
 
 
 .footer {
-    background-color: #2D3748;
-    color: #A0AEC0;
+    background-color: #fdfeff;
+    color: #2D3748;
     padding: 1rem;
     margin-top: 2rem;
 }
@@ -165,9 +170,9 @@
 
 .overlay {
     position: absolute; 
-    bottom: 10px; 
-    left: 10px; 
-    background-color: rgba(0, 0, 0, 0.5); 
+    bottom: 0px; 
+    left: 0px; 
+    background: linear-gradient(to bottom, rgba(77, 77, 77, 0.5), rgba(0, 0, 0, 0.9)) !important;
     padding: 5px; 
     border-radius: 5px; 
     z-index: 1; 
@@ -179,5 +184,25 @@
     margin: 0; 
 }
 
+.mr0 {
+    text-align: right !important
+}
+.sp{
+    padding: 10px !important;
+}
 
+.erln{
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    font-size: 1rem; 
+    color: #fefefe; 
+    background: #236cff; 
+    padding: 0.5rem; 
+    border: 0px !important;
+}
+
+.nbg{
+    background: linear-gradient(to bottom, rgba(77, 77, 77, 0.5), rgba(0, 0, 0, 0.9)) !important;
+}
 

@@ -2,7 +2,7 @@
     background-color: #1A202C;
     color: #CBD5E0;
     width: 16rem;
-    padding: 1.75rem 0.5rem;
+    padding: 0px;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -11,12 +11,13 @@
 .nav-item {
     display: block;
     padding: 0.625rem 1rem;
-    border-radius: 0.375rem;
     transition: background-color 0.2s;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
 }
 
 .nav-item:hover {
-    background-color: #4A5568;
+    background-color:#2a2f33;
 }
 
 .nav-item.active {
@@ -39,7 +40,7 @@
     background-color: #000000;
     color: #FFFFFF;
     padding: 0.25rem 1rem;
-    border-radius: 0.375rem;
+    border-radius: 0%;
 }
 
 .article {
@@ -73,20 +74,23 @@
 .related-news {
     background-color: #FFFFFF;
     padding: 1rem;
-    border-radius: 0.75rem;
+    border-radius: 0.rem;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    position: relative;
 }
 
 .right-sidebar {
     width: 16rem;
-    background-color: #F7FAFC;
+    background-color: #FFFFFF;
     padding: 1rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    border-radius: 0px;
 }
 
 .ranking-item {
     position: relative;
     background-color: #FFFFFF;
-    border-radius: 0.75rem;
+    border-radius: 0rem;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
     overflow: hidden;
 }
@@ -104,6 +108,7 @@
     padding: 1rem;
     background: rgba(0, 0, 0, 0.5);
     color: white;
+    border-radius: 0px !important;
 }
 
 .ranking-item p {
@@ -112,8 +117,8 @@
 
 
 .footer {
-    background-color: #2D3748;
-    color: #A0AEC0;
+    background-color: #f6f9ff;
+    color: #6b6b6b;
     padding: 1rem;
     margin-top: 2rem;
 }
@@ -121,11 +126,34 @@
 .footer a {
     color: #63B3ED;
 }
-.imagee {
+.image {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 0px !important;
+}
+
+.mr0 {
+    text-align: right !important
+}
+.sp{
+    padding: 10px !important;
+}
+
+.erln{
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    font-size: 1rem; 
+    color: #fefefe; 
+    background: #236cff; 
+    padding: 0.5rem; 
+    border: 0px !important;
+}
+
+.nbg{
+    background: linear-gradient(to bottom, rgba(77, 77, 77, 0.5), rgba(0, 0, 0, 0.9)) !important;
 }
